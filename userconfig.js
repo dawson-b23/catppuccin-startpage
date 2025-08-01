@@ -45,22 +45,22 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "personal",
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "glance",
+              url: "https://glance.tailb9cd03.ts.net",
+              icon: "circle-dotted-letter-g",
+              icon_color: palette.blue,
             },
             {
               name: "musicForProgramming();",
               url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              icon: "music",
               icon_color: palette.peach,
             },
           ],
@@ -98,33 +98,27 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "gmail",
+              url: "https://mail.google.com/",
+              icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "Jellyseer",
+              url: "https://jellyseerr.tailb9cd03.ts.net",
+              icon: "device-tv-old",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "vaultwarden",
+              url: "https://vault.tailb9cd03.ts.net",
+              icon: "password",
               icon_color: palette.blue,
             },
             {
-              name: "village",
+              name: "Jellyfin",
               url: "https://www.village.com.ua",
-              icon: "home-2",
+              icon: "movie",
               icon_color: palette.mauve,
             },
           ],
@@ -190,6 +184,12 @@ const default_configuration = {
         {
           name: "resources",
           links: [
+            {
+              name: "outlook",
+              url: "https://https://login.microsoftonline.com/",
+              icon: "mail",
+              icon_color: palette.peach,
+            },
             {
               name: "dou",
               url: "https://dou.ua",
