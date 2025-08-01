@@ -12,7 +12,7 @@ let palette = initThemeSystem(preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "Spokane",
+    location: "Los Angeles",
     scale: "F",
   },
   clock: {
